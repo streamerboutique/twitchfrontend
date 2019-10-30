@@ -54,7 +54,7 @@
     @Component({
         components: {},
     })
-    export default class Panel extends Vue {
+    export default class Mobile extends Vue {
         StoreUrl = 'https://streamer-boutique-dev.myshopify.com';
 
         onSlideChanged(indx) {

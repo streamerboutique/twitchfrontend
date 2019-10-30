@@ -17,3 +17,9 @@
 </script>
 
 
+<style>
+    #app {
+        background-color: transparent;
+
+    }
+</style>

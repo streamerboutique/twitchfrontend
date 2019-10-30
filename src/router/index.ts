@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Panel from '../views/Panel.vue'
+import Mobile from '@/views/Mobile.vue';
 
 Vue.use(VueRouter)
 
@@ -11,13 +12,10 @@ const routes = [
     component: Panel
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+    path: '/mobile',
+    name: 'mobile',
+    component: Mobile
+  },
 ]
 
 const router = new VueRouter({

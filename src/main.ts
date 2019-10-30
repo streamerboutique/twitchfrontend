@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
-
+import './assets/css/main.css';
 //@ts-ignore
 import Carousel3d from 'vue-carousel-3d';
 
